@@ -1,0 +1,5 @@
+Fundação
+Estrutura
+Alvenaria
+Acabamento interno
+Acabamento Externo

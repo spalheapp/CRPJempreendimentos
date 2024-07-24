@@ -1,0 +1,23 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "Fundação\r Estrutura\r Alvenaria\r Acabamento interno\r Acabamento Externo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feppeli/CRPJ_landingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feppeli/CRPJ_landingPage/issues"
+  },
+  "homepage": "https://github.com/Feppeli/CRPJ_landingPage#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

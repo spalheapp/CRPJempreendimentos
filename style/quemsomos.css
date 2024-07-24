@@ -1,0 +1,24 @@
+main{
+    background-image: url('../assets/QuemSomos/quemSomos.png');
+    background-repeat: no-repeat;
+    background-position: 13%;
+    background-size: cover;
+
+    height: 70vh;
+}
+
+#quemsomosBox{
+    display: flex;
+    align-items: flex-start;
+}
+
+#txt{
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 900px;
+}
+
+#txt div{
+    margin-top: 30px;
+}

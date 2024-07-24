@@ -1,0 +1,55 @@
+#contatos #contatosBox{
+    height: 90vh;
+}
+
+#contatos h1{
+    margin-top: 60px;
+}
+
+#contatosInfo{
+    margin-top: 45px;
+}
+
+#contatosInfo p{
+    color: #000;
+}
+
+#whatsApp a{
+
+    color: #fff;
+    text-decoration: none;
+}
+
+#whatsApp{
+    background: #34af23;
+    max-width: 150px;
+    padding: 10px 18px;
+
+    border-radius: 50px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 45px;
+}
+
+#logo{
+    margin-top: 30px;
+}
+
+
+/* brand */
+
+main{
+    background-image:url('../assets/contatos/brand.png') ;
+
+    background-repeat: no-repeat;
+    background-position: 13%;
+    background-size: cover;
+
+    height: 70vh;
+
+}

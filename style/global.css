@@ -1,0 +1,13 @@
+:root{
+    --cor-vinho: #AA182C;
+    --cor-amarelo: #E28516;
+    --cor-cinza:#283D4E;
+}
+
+body{
+    overflow-x: hidden;
+}
+.mapbox iframe{
+    width: 100%;
+    height: 600px;
+}

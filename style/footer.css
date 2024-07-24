@@ -1,0 +1,93 @@
+footer{
+    background: var(--cor-cinza);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+.footerBox{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 75px;
+
+}
+
+.footerBox div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    justify-content: center;
+}
+
+.footerBox .redesSociais{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+
+    justify-content: space-evenly;
+
+    margin-top: 15px;
+}
+.footerBox .redesSociais i{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.footerBrand img{
+    width: 100px;
+}
+
+.footerBox .footerNav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerBox .footerNav a:hover{
+    color: var(--cor-amarelo);
+
+}
+
+.footerContact{
+    color: #fff;
+}
+
+.footerContactBox p{
+    margin-bottom: 0;
+}
+.footerContactBox i{
+    margin: 3px;
+}
+.footerContactBox div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    text-align: start;
+    
+
+
+}
+
+@media(max-width:900px){
+    .footerBox{
+        flex-direction: column;
+        padding: 0px 20px;
+        height: 90vh;
+    }
+    .footerBrand{
+        align-items: center;
+    }
+    .footerBox a{
+        font-size: 24px;
+    }
+    .footerBox p{
+        font-size: 16px;
+    }
+    
+}

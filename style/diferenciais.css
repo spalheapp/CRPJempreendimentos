@@ -1,0 +1,46 @@
+#diferenciais{
+    background: var(--cor-cinza);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.spaceDiferenciais{
+    margin: 10px;
+}
+
+#diferenciais img{
+    height: 150px;
+}
+
+#diferenciais h1{
+    font-size: 34px;
+}
+
+#boxD{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.diferenciaisBox p{
+     margin-top: 0px;
+     padding: 0;
+}
+
+
+@media( max-width: 500px){
+    #boxD{
+        margin-top: 30px;
+        padding: 10px;
+    }
+}

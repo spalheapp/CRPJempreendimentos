@@ -1,0 +1,19 @@
+#carouselbox{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+#carousel{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    align-items: center;
+
+}
+
+.box-carousel{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

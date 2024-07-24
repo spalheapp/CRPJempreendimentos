@@ -1,0 +1,37 @@
+#pro{
+    align-items: center;
+    text-align: center;
+}
+#pro h1{
+    margin: 60px ;
+}
+
+#pro img{
+    width: 350px;
+    max-width: 80%;
+    height: 350px ;
+    object-fit: cover;
+
+    border-radius: 15px;
+    
+
+}
+
+#pro p{
+    color: #000;
+}
+
+#proBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+@media(max-width: 800px){
+    #proBox{
+        flex-direction: column;
+    }
+}
+.profissional{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+main #itens{
+    display: flex;
+    justify-content: space-between;
+}
+#txtHeader{
+    display: flex;
+    justify-content: space-between;
+    background: var(--cor-vinho);
+}
+
+nav #brand{
+    margin: 10px;
+    width:70px;
+}
+
+#links a{
+    text-decoration: none;
+    margin-left: 10px;
+
+    color: #fff;
+}
+
+#links a:hover{
+    color: rgba(255, 255, 255, 0.43);
+}
+
+@media(max-width: 900px){
+    #links a{
+        margin: 2px;
+    }
+}
+
+@media(max-width: 700px){
+    #links{
+        display: none;
+    }
+}
+
+
+/* Button Menu */
+
+
+.buttonNav a{
+    color: #fff;
+}
+
+.buttonNav a:hover{
+    color:var(--cor-cinza);
+    transition: 0.8s;
+
+}
+
+@media(min-width: 1000px){
+    .buttonNav{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    #links{
+        display: none;
+    }
+}
+
+@media(max-width: 800px){
+    main #mainCall h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    main #mainCall{
+        text-align: center;
+    }
+    main #mainCall br{
+        display: none;
+    }
+    main #mainCall p{
+        font-size: 16px;
+    }
+
+    main #buttonBox{
+        margin-top: 120px;
+    }
+}

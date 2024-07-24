@@ -1,0 +1,72 @@
+main{
+    background: url('../assets/Main_Background_Cinza.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+
+    
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+#mainCall h1, p{
+    color:  #fff;
+}
+
+#mainCall p{
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+#mainCall h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+#mainCall a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 16px 38px;
+    border-radius: 50px;
+
+        -webkit-box-shadow: 24px 20px 35px 0px rgba(0, 0, 0, 0.842);
+    -moz-box-shadow: 24px 20px 35px 0px rgba(0, 0, 0, 0.874);
+    box-shadow: 24px 20px 35px 0px rgba(0, 0, 0, 0.848);
+}
+#mainCall a:hover{
+    color: var(--cor-cinza);
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+
+    transition: .6s;
+
+
+}
+
+
+#buttonBox{
+    margin-top: 15px;
+}
+
+
+
+
+
+.wave{
+    float: bottom;
+}
+
+@media(max-width: 700px){
+    #mainCall h1{
+        font-size: 50px;
+    }
+    #mainCall p{
+        font-size: 12px;
+    }
+}

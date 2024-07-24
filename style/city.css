@@ -1,0 +1,60 @@
+#city{
+    text-align: center;
+
+    background-image: url("../assets/textura_papel.jpeg");
+
+
+}
+#city h1{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+#cityBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityImgs{
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+}
+
+.cityImgs img{
+    width: 380px; /* width of container */
+    height: 230px; /* height of container */
+    object-fit: cover;
+
+    margin: 10px;
+}
+
+@media(max-width:820px){
+    .cityImgs{
+        flex-direction: column;
+    }
+    .cityImgs img{
+    width: 580px; /* width of container */
+    height: 430px; /* height of container */
+
+    }
+}
+
+@media(max-width:600px){
+    .cityImgs img{
+    width: 380px; /* width of container */
+    height: 230px; /* height of container */
+
+    }
+}
+
+@media(max-width: 400px){
+    .cityImgs img{
+    width: 280px; /* width of container */
+    height: 130px; /* height of container */
+
+    }
+}

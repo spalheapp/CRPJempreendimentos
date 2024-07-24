@@ -1,0 +1,262 @@
+main{
+    background-image: url('../assets/rooftop/crpj.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 13%;
+
+    height: 70vh;
+
+
+
+}
+
+
+
+
+
+
+
+
+#txtHeader{
+    display: flex;
+    justify-content: space-between;
+    background: var(--cor-cinza);
+}
+
+nav #brand{
+    margin: 10px;
+    width:70px;
+}
+
+#links a{
+    text-decoration: none;
+    margin-left: 10px;
+
+    color: #fff;
+}
+
+#links a:hover{
+    color: rgba(255, 255, 255, 0.43);
+}
+
+@media(max-width: 900px){
+    #links a{
+        margin: 2px;
+    }
+}
+
+@media(max-width: 700px){
+    #links{
+        display: none;
+    }
+}
+
+
+/* Button Menu */
+
+
+.buttonNav a{
+    color: #fff;
+}
+
+.buttonNav a:hover{
+    color:var(--cor-cinza);
+    transition: 0.8s;
+
+}
+
+@media(min-width: 1000px){
+    .buttonNav{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    #links{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slider */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-slider {
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  @media(max-width:900px){
+    .container-slider{
+        min-height: 40vh;
+    }
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+
+    max-height: 50vh;
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .buttonBox{
+    background: var(--cor-cinza);
+    border-radius: 100px;
+    text-align: center; 
+  }
+  
+  #prev-button , #next-button {
+    
+    font-weight: bold;
+    color: #fff;
+
+  }
+
+  #pre-button:hover, #next-button:hover{
+    transition: .5s;
+
+    color: var(--cor-cinza);
+  }
+  .buttonBox:hover{
+
+    transition: .5s;
+
+    background: #fff;
+
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
+
+
+#mainTxt {
+    margin-bottom: 60px;
+}
+
+#mainTxt a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 18px;
+
+    margin-top:15px ;
+    margin-bottom:45px ;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+#rooftop h3{
+margin-right: 15px ;
+}
+
+#rooftop .description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 820px){
+    #rooftop .description{
+        flex-direction: column;
+        text-align: start;
+    }
+    .descTitle{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    #planta{
+        max-width: 300px;
+    }
+}
+
+
+#rooftop #imovelDesc{
+    display: flex;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.descTitle{
+    text-align: center;
+}
+
+#callButton {
+    background: var(--cor-vinho);
+    max-width: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#callButton a{
+    padding: 10px 18px;
+
+    color: #fff;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+#callButton:hover{
+    border: 1px solid var(--cor-vinho);
+
+    background: #fff;
+    transition: .5s;
+}
+#callButton a:hover{
+    padding: 10px 17px;
+    transition: .5s;
+    color: var(--cor-vinho);
+}
